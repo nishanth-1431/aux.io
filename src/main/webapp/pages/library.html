@@ -4,11 +4,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Library | Aux.io</title>
+
+    <link rel="icon" href="../images/auxioIcon.jpg">
 </head>
 
-<body> 
-    
+<body>
+
+    <!-- Navigation -->
+    <header>
+
+        <nav>
+
+            <a href="home.html">
+                <h1>AUX.IO</h1>
+            </a>
+
+            <a href="home.html">Home</a>
+
+            <a href="library.html">Library</a>
+
+            <a href="profile.html">Profile</a>
+
+            <a href="landing.html">Logout</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Library Heading -->
+        <section>
+
+            <h2>Your Library</h2>
+
+            <p>
+                Explore all the music available on Aux.io.
+            </p>
+
+        </section>
+
+
+        <!-- Search -->
+        <section>
+
+            <form>
+
+                <label for="library-search">Search your library</label>
+
+                <input
+                    type="search"
+                    id="library-search"
+                    name="library-search"
+                    placeholder="Search songs or artists..."
+                >
+
+                <button type="submit">Search</button>
+
+            </form>
+
+        </section>
+
+
+        <!-- All Songs -->
+        <section>
+
+            <h2>All Songs</h2>
+
+            <div>
+
+                <!-- Song 1 -->
+                <article>
+
+                    <img
+                        src="../images/song-placeholder.jpg"
+                        alt="Song cover"
+                    >
+
+                    <h3>Song Title</h3>
+
+                    <p>Artist Name</p>
+
+                    <button type="button">Play</button>
+
+                </article>
+
+
+                <!-- Song 2 -->
+                <article>
+
+                    <img
+                        src="../images/song-placeholder.jpg"
+                        alt="Song cover"
+                    >
+
+                    <h3>Song Title</h3>
+
+                    <p>Artist Name</p>
+
+                    <button type="button">Play</button>
+
+                </article>
+
+
+                <!-- Song 3 -->
+                <article>
+
+                    <img
+                        src="../images/song-placeholder.jpg"
+                        alt="Song cover"
+                    >
+
+                    <h3>Song Title</h3>
+
+                    <p>Artist Name</p>
+
+                    <button type="button">Play</button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Recently Played -->
+        <section>
+
+            <h2>Recently Played</h2>
+
+            <div>
+
+                <article>
+
+                    <h3>Song Title</h3>
+
+                    <p>Artist Name</p>
+
+                    <button type="button">Play</button>
+
+                </article>
+
+
+                <article>
+
+                    <h3>Song Title</h3>
+
+                    <p>Artist Name</p>
+
+                    <button type="button">Play</button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Music Player -->
+    <footer>
+
+        <section>
+
+            <h2>Now Playing</h2>
+
+            <p>Song Title</p>
+
+            <p>Artist Name</p>
+
+            <button type="button">Previous</button>
+
+            <button type="button">Play</button>
+
+            <button type="button">Next</button>
+
+            <label for="volume">Volume</label>
+
+            <input
+                type="range"
+                id="volume"
+                name="volume"
+                min="0"
+                max="100"
+                value="50"
+            >
+
+        </section>
+
+        <p>© 2026 Aux.io</p>
+
+    </footer>
 
 </body>
 
