@@ -1,5 +1,4 @@
 package com.auxio.model;
-import com.auxio.model.UserType;
 /*  
     MySQL                          Java
     ────────────────────────────────────────
@@ -7,13 +6,13 @@ import com.auxio.model.UserType;
 
     user_id              →         int userId
     user_name            →         String userName
-    password             →         String password
-    usertype              →        UserType userType
+    passwordHash         →         String passwordHash
+    usertype             →        UserType userType
 */
 public class User {
    private int userId;
    private String userName;
-   private String password;
+   private String passwordHash;
    private UserType userType;
 
     public int getUserId(){
@@ -32,12 +31,12 @@ public class User {
         this.userName = Username;
     }
 
-    public String getPassword() {
-         return this.password; 
+    public String getpasswordHash() {
+         return this.passwordHash; 
     }
 
-    public void setPassword(String password) { 
-        this.password = password;
+    public void setpasswordHash(String passwordHash) { 
+        this.passwordHash = passwordHash;
     } 
 
     public UserType getUserType() {
