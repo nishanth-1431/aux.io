@@ -19,7 +19,7 @@ public class User {
         return this.userId;
     }
 
-    void setUserId(int userId){
+    public void setUserId(int userId){
         this.userId = userId;
     }
 
@@ -27,7 +27,7 @@ public class User {
         return this.userName;
     }
 
-    void setUserName(String Username){
+    public void setUserName(String Username){
         this.userName = Username;
     }
 
